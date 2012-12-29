@@ -1,6 +1,8 @@
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-. `brew --prefix`/etc/bash_completion
-fi
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+if [ -n `which brew`]; then
+	if [ -f `brew --prefix`/etc/bash_completion ]; then
+		. `brew --prefix`/etc/bash_completion
+	fi
+	export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-export PATH=$PATH:/usr/local/Cellar/gettext/0.18.1.1/bin
+	export PATH=$PATH:/usr/local/Cellar/gettext/0.18.1.1/bin
+fi
