@@ -1,5 +1,4 @@
-which port > /dev/null 2>&1
-if [ $? == 0 ]; then
+if [ -e /opt/local/bin/port ]; then
 	# MacPorts Installer addition on 2011-09-10_at_15:32:12: adding an appropriate PATH variable for use with MacPorts.
 	export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 	# Finished adapting your PATH environment variable for use with MacPorts.
