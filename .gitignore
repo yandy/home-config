@@ -1,4 +1,10 @@
 /*
 !/.gitignore
-!/.bash*
-/.bash_history
+!/.bashrc
+!/.bash_profile
+!/.bash_term
+!/.bash_homebrew
+!/.bash_macports
+!/.bash_localvar
+!/.bash_python
+!/.bash_ruby
