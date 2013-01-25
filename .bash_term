@@ -9,3 +9,4 @@ export PROMPT_COMMAND="_update_ps1"
 
 # grep
 alias grep='grep --color=always'
+alias sublime='open -a "Sublime Text 2"'
