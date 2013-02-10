@@ -5,5 +5,5 @@ if [ $? -eq 0 ]; then
 	fi
 	export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-	export PATH=$PATH:/usr/local/Cellar/gettext/0.18.1.1/bin
+	export PATH=$PATH:/usr/local/Cellar/gettext/0.18.1.1/bin:/usr/local/share/npm/bin
 fi
