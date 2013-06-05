@@ -1,9 +1,0 @@
-if [ -e /opt/local/bin/port ]; then
-	# MacPorts Installer addition on 2011-09-10_at_15:32:12: adding an appropriate PATH variable for use with MacPorts.
-	export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-	# Finished adapting your PATH environment variable for use with MacPorts.
-
-	if [ -f /opt/local/etc/bash_completion ]; then
-		. /opt/local/etc/bash_completion
-	fi
-fi
