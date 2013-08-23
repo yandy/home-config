@@ -5,7 +5,7 @@ if [ $? -eq 0 ]; then
 	fi
 	export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-	export PATH=$PATH:/usr/local/Cellar/gettext/0.18.1.1/bin:/usr/local/share/npm/bin:/usr/local/opt/qt5/bin:/usr/local/share/python
+	export PATH=$PATH:/usr/local/Cellar/gettext/0.18.1.1/bin:/usr/local/share/npm/bin:/usr/local/opt/qt5/bin
 
 	LDFLAGS="-L/usr/local/opt/qt5/lib"
 	CPPFLAGS="-I/usr/local/opt/qt5/include"
