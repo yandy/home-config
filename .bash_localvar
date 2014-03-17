@@ -1,6 +1,6 @@
 LOCALPATH=$HOME/opt/local
 
-export PATH=$LOCALPATH/bin:$PATH
+export PATH=$LOCALPATH/bin:$PATH:/Applications/ImageOptim.app/Contents/MacOS
 export PYTHONPATH=$LOCALPATH/lib/python2.7/site-packages:$PYTHONPATH
 export LIBRARY_PATH=$LOCALPATH/lib:$LIBRARY_PATH
 #export LD_LIBRARY_PATH=$LOCALPATH/lib:$LD_LIBRARY_PATH
