@@ -2,9 +2,10 @@
 !/.gitignore
 !/.bashrc
 !/.bash_profile
-!/.bash_term
 !/.bash_homebrew
-!/.bash_macports
-!/.bash_localvar
-!/.bash_python
+!/.bash_cpp
 !/.bash_ruby
+!/.bash_python
+!/.bash_node
+!/.bash_term
+!/.bash_opt

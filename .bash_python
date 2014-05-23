@@ -7,3 +7,6 @@ _pip_completion()
 }
 complete -o default -F _pip_completion pip
 # pip bash completion end
+
+export PYTHONUSERBASE=$LOCALPATH
+export PYTHONPATH=$LOCALPATH/lib/python2.7/site-packages:$PYTHONPATH
