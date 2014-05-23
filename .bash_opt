@@ -2,5 +2,4 @@ export EC2_HOME=$LOCALPATH/lib/ec2-api-tools-1.5.2.5
 export EC2_PRIVATE_KEY=$HOME/.ec2/pk-HHNEYGVJJS4DYE6VC455O7TKAK2SALKZ.pem
 export EC2_CERT=$HOME/.ec2/cert-HHNEYGVJJS4DYE6VC455O7TKAK2SALKZ.pem
 export PATH=$PATH:$EC2_HOME/bin:/Applications/ImageOptim.app/Contents/MacOS
-# export LD_LIBRARY_PATH=/usr/local/opt/qt5/lib:$LD_LIBRARY_PATH
-# export DYLD_LIBRARY_PATH=/usr/local/opt/qt5/lib:$DYLD_LIBRARY_PATH
+export DYLD_FRAMEWORK_PATH=/usr/local/opt/qt5/lib:$DYLD_FRAMEWORK_PATH
