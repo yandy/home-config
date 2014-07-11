@@ -12,6 +12,8 @@ export PATH=$LOCALPATH/bin:$PATH
 
 . $HOME/.bash_python
 
+. $HOME/.bash_java
+
 . $HOME/.bash_node
 
 . $HOME/.bash_term
