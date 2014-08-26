@@ -1,12 +1,3 @@
 /*
 !/.gitignore
-!/.bashrc
-!/.bash_profile
-!/.bash_homebrew
-!/.bash_cpp
-!/.bash_ruby
-!/.bash_python
-!/.bash_java
-!/.bash_node
-!/.bash_term
-!/.bash_opt
+!/.zshrc

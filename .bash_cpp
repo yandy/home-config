@@ -1,4 +1,0 @@
-export PATH=$PATH:/usr/local/opt/qt5/bin
-LDFLAGS="-L/usr/local/opt/qt5/lib -L$LOCALPATH/lib"
-CFLAGS="-I/usr/local/opt/qt5/include -I$LOCALPATH/include"
-CPPFLAGS="-I/usr/local/opt/qt5/include -I$LOCALPATH/include"
