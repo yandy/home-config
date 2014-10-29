@@ -105,3 +105,6 @@ export PATH=$PATH:/usr/local/share/npm/bin
 
 # java
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+
+# docker
+export DOCKER_HOST=tcp://192.168.33.10:2375
