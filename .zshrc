@@ -103,3 +103,4 @@ export PATH=$PATH:/usr/local/share/npm/bin
 
 # docker
 export DOCKER_HOST=tcp://192.168.33.10:2375
+
