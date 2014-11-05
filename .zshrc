@@ -91,11 +91,6 @@ alias sublime='open -a "Sublime Text 2"'
 # homebrew
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-# ruby
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
-
 # python
 export PYTHONUSERBASE=$LOCALPATH
 export PYTHONPATH=$LOCALPATH/lib/python2.7/site-packages:$PYTHONPATH
@@ -104,7 +99,7 @@ export PYTHONPATH=$LOCALPATH/lib/python2.7/site-packages:$PYTHONPATH
 export PATH=$PATH:/usr/local/share/npm/bin
 
 # java
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 
 # docker
 export DOCKER_HOST=tcp://192.168.33.10:2375
