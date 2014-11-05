@@ -91,6 +91,10 @@ alias sublime='open -a "Sublime Text 2"'
 # homebrew
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+# ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 # python
 export PYTHONUSERBASE=$LOCALPATH
 export PYTHONPATH=$LOCALPATH/lib/python2.7/site-packages:$PYTHONPATH
