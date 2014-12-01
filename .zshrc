@@ -108,3 +108,9 @@ export PATH=$PATH:/usr/local/share/npm/bin
 # docker
 export DOCKER_HOST=tcp://192.168.33.10:2375
 
+
+#alias for cnpm
+alias cnpm="npm --registry=http://r.cnpmjs.org \
+  --cache=$HOME/.npm/.cache/cnpm \
+  --disturl=http://cnpmjs.org/dist \
+  --userconfig=$HOME/.cnpmrc"
