@@ -94,18 +94,12 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 eval "$(rbenv init - zsh)"
 
 # python
-export PYTHONUSERBASE=$LOCALPATH
-export PYTHONPATH=$LOCALPATH/lib/python2.7/site-packages:$PYTHONPATH
 
 # node
 export PATH=$PATH:/usr/local/share/npm/bin
 
 # java
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
-
-# docker
-export DOCKER_HOST=tcp://192.168.33.10:2375
-
 
 #alias for cnpm
 alias cnpm="npm --registry=http://r.cnpmjs.org \
