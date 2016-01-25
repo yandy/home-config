@@ -102,9 +102,3 @@ export PATH=$PATH:/usr/local/share/npm/bin
 
 # java
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
-
-#alias for cnpm
-alias cnpm="npm --registry=http://r.cnpmjs.org \
-  --cache=$HOME/.npm/.cache/cnpm \
-  --disturl=http://cnpmjs.org/dist \
-  --userconfig=$HOME/.cnpmrc"
