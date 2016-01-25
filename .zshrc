@@ -96,6 +96,8 @@ eval "$(rbenv init - zsh)"
 # python
 
 # node
+export NVM_DIR=$HOME/.nvm
+. $(brew --prefix nvm)/nvm.sh
 export PATH=$PATH:/usr/local/share/npm/bin
 
 # java
