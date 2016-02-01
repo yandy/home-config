@@ -98,7 +98,7 @@ eval "$(rbenv init - zsh)"
 # node
 export NVM_DIR=$HOME/.nvm
 . $(brew --prefix nvm)/nvm.sh
-export PATH=$PATH:/usr/local/share/npm/bin
+nvm use stable
 
 # java
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
