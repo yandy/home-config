@@ -97,7 +97,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # node
 
 # go
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export PATH=$PATH:/usr/local/opt/go/libexec/bin:$HOME/.go/bin
 
 # java
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
