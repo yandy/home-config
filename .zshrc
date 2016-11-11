@@ -91,6 +91,7 @@ alias grep='grep --color=always'
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # ruby
+eval "$(rbenv init -)"
 
 # python
 
