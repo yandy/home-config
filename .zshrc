@@ -91,16 +91,16 @@ alias grep='grep --color=always'
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # ruby
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # python
 
 # node
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # go
-export PATH=$PATH:/usr/local/opt/go/libexec/bin:$HOME/.go/bin
+# export PATH=$PATH:/usr/local/opt/go/libexec/bin:$HOME/.go/bin
 
 # java
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
