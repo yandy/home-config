@@ -90,4 +90,4 @@ alias grep='grep --color=always'
 # homebrew
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-. $PATH/.zshenv
+. $HOME/.zshenv
