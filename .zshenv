@@ -13,8 +13,9 @@ fi
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # go
+export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/Documents/code/go
-export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # java
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
