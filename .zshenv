@@ -18,4 +18,4 @@ export GOPATH=$HOME/Documents/code/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # java
-export JAVA_HOME=`/usr/libexec/java_home -v 1.10`
+export JAVA_HOME=`/usr/libexec/java_home -v 10`
