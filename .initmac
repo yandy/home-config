@@ -1,0 +1,9 @@
+# install homebrew
+
+brew install pyenv rbenv git curl golang
+brew cask install  iterm2 appcleaner google-chrome visual-studio-code qq wechat qqlive qqmusic calibre java intellij-idea-ce sourcetree virtualbox vagrant
+
+
+# setup dev
+
+## install oh-my-zsh && activate home-config
