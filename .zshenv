@@ -19,3 +19,6 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # java
 export JAVA_HOME=`/usr/libexec/java_home -v 10`
+
+# docker
+export DOCKER_HOST="tcp://0.0.0.0:2375"
