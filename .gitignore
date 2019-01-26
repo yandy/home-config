@@ -1,3 +1,7 @@
 /*
 !/.gitignore
 !/.zshrc
+!/.zshenv
+!/.iterm2-devel-attrs.json
+!/.initmac
+!/.gitmodules
