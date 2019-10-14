@@ -14,7 +14,7 @@ fi
 
 # go
 export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/Documents/code/go
+export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # java
