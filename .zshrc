@@ -91,6 +91,3 @@ alias grep='grep --color=always'
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 . $HOME/.zshenv
-
-# added by travis gem
-[ -f /Users/yandy/.travis/travis.sh ] && source /Users/yandy/.travis/travis.sh
