@@ -27,3 +27,6 @@ export DOCKER_HOST="tcp://0.0.0.0:2375"
 export PKG_CONFIG_PATH="/usr/local/opt/qt/lib/pkgconfig" 
 export LDFLAGS="-L/usr/local/opt/qt/lib"
 export CPPFLAGS="-I/usr/local/opt/qt/include"
+
+# cmake
+export CMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH:$HOME/opt
