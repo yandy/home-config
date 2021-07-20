@@ -29,4 +29,5 @@ export LDFLAGS="-L/usr/local/opt/qt/lib"
 export CPPFLAGS="-I/usr/local/opt/qt/include"
 
 # cmake
-export CMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH:$HOME/opt
+# if $PATH included opt, this is not needed
+# export CMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH:$HOME/opt
